@@ -18,7 +18,7 @@ h3{
 nav{
     width: 65%;
     display: flex;
-    justify-content: end;
+    justify-content: start;
 
 }
 ul{
@@ -85,7 +85,7 @@ b{
 .depositSection{
 
 height: 70vh;
-background-color: black;
+background-color: #050A30;
 display: flex;
 align-items: center;
 
@@ -105,15 +105,15 @@ align-items: center;
 .text1{
     color: white;
     font-size: 35px;
-    width: 400px;
+    width: 280px;
 }
 .text2{
-    width: 900px;
+    width: 644px;
     color: white;
     font-size: 20px;
 }
 .text3{
-    font-size: 15px;
+    font-size: 12px;
     padding: 10px 15px;
     background-color: #f9a713;
     border: none ;
@@ -133,5 +133,49 @@ align-items: center;
 }
 
 .miN{
-    width: 400px;
+    width: 100px;
+}
+.Black900{
+    width: 100px;
+}
+
+
+
+
+/*pág LOGIN*/
+
+
+.LoginImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 48%;
+    color: green;
+
+}
+
+.pagLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+h2{
+    color: white;
+    font-size: 30px;
+}
+.textEmail{
+    color: white;
+}
+
+input.emailCampo{
+    width: 300PX;
+    border-radius: 15px;
+    height: 32px;
+}
+.termos{
+    color: white;
+    font-size: ;
 }
