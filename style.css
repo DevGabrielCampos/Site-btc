@@ -84,7 +84,7 @@ b{
 
 .depositSection{
 
-height: 70vh;
+height: 94vh;
 background-color: #050A30;
 display: flex;
 align-items: center;
@@ -177,5 +177,64 @@ input.emailCampo{
 }
 .termos{
     color: white;
-    font-size: ;
+    font-size:10px;
+}
+button{
+    background-color: #F9A713;
+    width: 170px;
+    height: 33px;
+    border-radius:100px;
+}
+.formlogin{
+    background-color: #cae8ff2c;
+    height: 650px;
+    width: 500px;
+    padding: 41px;
+    border-radius: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.separando{
+    color:white ;
+    position: relative;
+    right: 20px;
+    
+}
+.google{
+    color: white;
+    background-color:#cae8ff2c ;
+    height: 50px;
+    width: 300px;
+}
+.apple{
+    color: white;
+    background-color:#cae8ff2c ;
+    height: 50px;
+    width: 300px;
+    
+}
+.simboloGoogle{
+    position:relative;
+    left: 58px;
+    top: 7px;
+    
+}
+.simboloApple{
+    position: relative;
+    left: 58px;
+    top: 7px;
+}
+.divisoria{
+    position:relative;
+    right: 90px;
+}
+.google02{
+    position: relative;
+    right: 32px;
+}
+.apple02{
+    position: relative;
+    right: 32px;
 }
