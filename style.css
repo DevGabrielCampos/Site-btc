@@ -4,7 +4,7 @@
 
 header{
     height: 60px;
-    background: #f9a713;
+    background: rgb(151, 28, 28);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -13,6 +13,7 @@ header{
 
 h3{
     width: 25%;
+    color: white;
 }
 
 nav{
@@ -41,7 +42,7 @@ li{
     flex-direction: column;
     height: 100vh;
     width: 100%;
-    background-color: #050A30;
+    background-image: url("./img/fundo\ 2.jpg");
 }
 
 .paiSection{
@@ -69,7 +70,7 @@ li{
     text-align: center;
     font-size: 15px;
     padding: 10px 15px;
-    background-color: #f9a713;
+    background-color: #a52a2aa1;
     border: none ;
     border-radius: 10px;
     color: white;
@@ -85,11 +86,9 @@ b{
 .depositSection{
 
 height: 94vh;
-background-color: #050A30;
 display: flex;
 align-items: center;
-
-
+background-image: url("./img/fundo\ 2.jpg")
 }
 
 
@@ -105,17 +104,17 @@ align-items: center;
 .text1{
     color: white;
     font-size: 35px;
-    width: 280px;
+    width: 665px;
 }
 .text2{
-    width: 644px;
+    width: 667px;
     color: white;
     font-size: 20px;
 }
 .text3{
     font-size: 12px;
     padding: 10px 15px;
-    background-color: #f9a713;
+    background-color: #a52a2aa1;
     border: none ;
     border-radius: 10px;
     color: white;
@@ -159,12 +158,11 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    
+        
 }
 h2{
     color: white;
-    font-size: 30px;
+    font-size: 27px;
 }
 .textEmail{
     color: white;
@@ -180,13 +178,15 @@ input.emailCampo{
     font-size:10px;
 }
 button{
-    background-color: #F9A713;
+    background-color: #f9bc13;
     width: 170px;
     height: 33px;
     border-radius:100px;
+    position: relative;
+
 }
 .formlogin{
-    background-color: #cae8ff2c;
+   
     height: 650px;
     width: 500px;
     padding: 41px;
@@ -195,6 +195,7 @@ button{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: rgba(126, 4, 4, 0.459);
 }
 .separando{
     color:white ;
@@ -232,9 +233,25 @@ button{
 }
 .google02{
     position: relative;
-    right: 32px;
+    right: 16px;
+    width: 352px;
+    height: 50px;
 }
 .apple02{
     position: relative;
-    right: 32px;
+    right: 7px;
+    width: 352px;
+    height: 50px;
+}
+.botãozinho{
+    position: relative;
+    left: -16px;
+}
+.cartaoForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    height: 464px;
+   
 }
